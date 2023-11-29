@@ -1,0 +1,23 @@
+branch-defaults:
+  main:
+    environment: Udagramfullstackapp-env
+    group_suffix: null
+# Setting EB deploy artifact to Archive.zip
+deploy:
+  artifact: ./src/Archive.zip
+global:
+  application_name: udagramfullstackapp
+  branch: null
+  default_ec2_keyname: null
+  default_platform: Node.js 14
+  default_region: us-west-2
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  repository: null
+  sc: git
+  workspace_type: Application
+
+
