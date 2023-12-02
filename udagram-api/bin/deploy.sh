@@ -1,6 +1,6 @@
-eb init udagramfullstackapp --platform node.js --region us-east-1
-eb create Udagramfullstackapp-env --region us-east-1
-eb use Udagramfullstackapp-env
+eb init udagramfullstack --platform node.js --region us-west-2
+eb create Udagramfullstack-env --region us-west-2
+eb use Udagramfullstack-env
 eb deploy  
 eb health
 # eb open
