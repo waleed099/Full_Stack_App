@@ -1,11 +1,11 @@
 branch-defaults:
   main:
-    environment: udagramfullstack-env
+    environment: Udagramfull-env
     group_suffix: null
 deploy:
   artifact: ./src/Archive.zip
 global:
-  application_name: udagramfullstack
+  application_name: udagramfull
   branch: null
   default_ec2_keyname: null
   default_platform: Node.js 14
